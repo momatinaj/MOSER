@@ -32,12 +32,14 @@ and run the following command:
  python3 subgraph_counts.py <INPUT GRAPH PATH> <SUBGRAPH SIZE> <OPTIONAL FLAGS>
  ```
 For Example:
-`python3 subgraph_counts.py ../graphs/ca-AstroPh.edges 4 -i`
+`python3 subgraph_counts.py ../graphs/ca-AstroPh.edges 4 -i`.
 
 2. To run the MOSER++ motif discovery algorithm, navigate to the wrappers folder and run the following command:
 ```Bash
- python3 moser++.py <ORIGINAL GRAPH PATH> <SUBGRAPH SIZE> <NUMBER OF STEPS>
+ python3 moser++.py -g <ORIGINAL GRAPH PATH> -s <SUBGRAPH SIZE> -n <NUMBER OF STEPS>
  ```
+For Example:
+`python3 moser++.py -g ../graphs/ca-AstroPh.edges -s 4 -n 1000`.
 
 
 ## Notes
