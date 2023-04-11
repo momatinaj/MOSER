@@ -36,7 +36,7 @@ For Example:
 
 2. To run the MOSER++ motif discovery algorithm, navigate to the wrappers folder and run the following command:
 ```Bash
- python3 moser++.py <ORIGINAL GRAPH PATH> <SUBGRAPH SIZE>
+ python3 moser++.py <ORIGINAL GRAPH PATH> <SUBGRAPH SIZE> <NUMBER OF STEPS>
  ```
 
 
