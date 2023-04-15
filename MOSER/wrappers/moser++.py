@@ -2,7 +2,7 @@ from utils import run_command
 from subgraph_counts import matrices, names
 import random, argparse, numpy as np
 
-
+    
 def parse_arguments():
     parser = argparse.ArgumentParser(description="MOSER++")
 
@@ -80,7 +80,7 @@ def serial_test(args):
     # print(uppers_2)
 
     for i in range(args.motif_size - 2):
-        summation = result = [
+        summation = [
             a + b + c
             for a, b, c in zip(
                 uppers_1[i], uppers_2[i], [1 for _ in range(len(uppers_1[i]))]
