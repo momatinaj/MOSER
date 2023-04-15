@@ -1,15 +1,12 @@
 # MOSER
- Scalable Network Motif Discovery using Serial Test
+Scalable Network Motif Discovery using Serial Test
 
 ## Table of Contents
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Notes](#notes)
 
-
 ## Installation
-
 1. Clone the repository to your local machine using: 
  ```Bash
  git clone https://github.com/momatinaj/MOSER.git
@@ -19,7 +16,11 @@
  ```Bash
  cd MOSER
  ```
-3. Run the command `make`, to complile the project and create the exectuables.
+3. Install the required dependencies using:
+ ```Bash 
+ pip install -r wrappers/requirements.txt
+ ```
+4. Run the command `make`, to complile the project and create the exectuables.
 
 ## Usage
 
