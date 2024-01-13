@@ -33,6 +33,7 @@ def calc_p_value_upper(arr, n):
 
 
 def parse_non_induced_to_induced(non_induced, motif_size):
+    non_induced = np.array(non_induced, dtype=np.float64)
     return list(np.linalg.solve(matrices[motif_size], non_induced))
 
 
