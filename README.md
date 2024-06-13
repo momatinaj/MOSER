@@ -16,11 +16,15 @@ Scalable Network Motif Discovery using Serial Test
  ```Bash
  cd MOSER
  ```
-3. Install the required dependencies using:
+3. Generate the binary files for the CPP module
+ ```Bash 
+ make
+ ```
+4. Install the required dependencies using:
  ```Bash 
  pip install -r wrappers/requirements.txt
  ```
-4. Run the command `make`, to complile the project and create the exectuables.
+5. Run the command `make`, to complile the project and create the exectuables.
 
 ## Usage
 
